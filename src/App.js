@@ -6,13 +6,15 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
-import Home from './component/pages/home';
-import About from './component/pages/about';
+import Home from './pages/Home';
+import About from './pages/About';
+import News from './component/News';
 
 const App = () => {
   return (
     <>
       <Nav titlename='NewsGeek' />
+      <News />
       <Router>
         <Routes>
           <Route exact path='/' element={<Home />} />
