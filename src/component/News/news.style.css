@@ -1,0 +1,15 @@
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #142d4c; */  
+}
+
+h1{
+    
+    margin: 10px;
+}
+
+.wrapper{
+    width: 90vw;
+}
